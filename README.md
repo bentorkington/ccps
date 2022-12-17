@@ -12,13 +12,14 @@ Tested with SDCC 4.0
 Setup :
 =======
 
-CCPS is a compiler/tools driver. It needs GCC to compile code to 68000 and SDCC to compile code to Z-80. Everything else is self-contained. 
+CCPS is a compiler/tools driver. It needs GCC to compile code to 68000 and SDCC to compile code to Z-80, and Go. Everything else is self-contained.
 
 On Linux:
 
 ```
 sudo apt install gcc-m68k-linux-gnu g++-m68k-linux-gnu binutils-m68k-linux-gnu
 sudo apt install sdcc
+sudo apt install golang
 ```
 
 On Windows:
